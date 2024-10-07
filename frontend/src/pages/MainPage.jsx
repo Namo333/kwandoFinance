@@ -169,7 +169,7 @@ const MainPage = () =>{
                             <div class="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
                                 <div class="max-w-3xl mb-10 lg:mb-14">
                                     <h2 class="font-semibold text-2xl md:text-4xl md:leading-tight">Наш подход</h2>
-                                    <p class="mt-1 text-neutral-400">This profound insight guides our comprehensive strategy — from meticulous research and strategic planning to the seamless execution of brand development and website or product deployment.</p>
+                                    <p class="mt-1 text-gray-600">This profound insight guides our comprehensive strategy — from meticulous research and strategic planning to the seamless execution of brand development and website or product deployment.</p>
                                 </div>
 
                                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
@@ -195,7 +195,7 @@ const MainPage = () =>{
                                             </div>
 
                                             <div class="grow pt-0.5 pb-8 sm:pb-12">
-                                                <p class="text-sm lg:text-base text-neutral-400">
+                                                <p class="text-sm lg:text-base text-gray-600">
                                                     <span class="text-black">Оставить заявку на сайте: </span>
                                                     Вы заполняете заявку на сайте или звоните нам.
                                                 </p>
@@ -211,7 +211,7 @@ const MainPage = () =>{
                                                 </div>
                                             </div>
                                             <div class="grow pt-0.5 pb-8 sm:pb-12">
-                                                <p class="text-sm lg:text-base text-neutral-400">
+                                                <p class="text-sm lg:text-base text-gray-600">
                                                     <span class="text-black">Анализ данных: </span>
                                                     Мы анализируем Ваши данные и консультируем
                                                 </p>
@@ -227,7 +227,7 @@ const MainPage = () =>{
                                                 </div>
                                             </div>
                                             <div class="grow pt-0.5 pb-8 sm:pb-12">
-                                                <p class="text-sm md:text-base text-neutral-400">
+                                                <p class="text-sm md:text-base text-gray-600">
                                                     <span class="text-black">Подбор кредита: </span>
                                                     Подбираем оптимальный вариант кредита (с одобрением в 97% случаев).
                                                 </p>
@@ -243,7 +243,7 @@ const MainPage = () =>{
                                                 </div>
                                             </div>
                                             <div class="grow pt-0.5 pb-8 sm:pb-12">
-                                                <p class="text-sm md:text-base text-neutral-400">
+                                                <p class="text-sm md:text-base text-gray-600">
                                                     <span class="text-black">Поездка в офис: </span>
                                                     Вы приезжаете к нам в офис и мы регистрируем сделку
                                                 </p>
@@ -259,7 +259,7 @@ const MainPage = () =>{
                                                 </div>
                                             </div>
                                             <div class="grow pt-0.5 pb-8 sm:pb-12">
-                                                <p class="text-sm md:text-base text-neutral-400">
+                                                <p class="text-sm md:text-base text-gray-600">
                                                     <span class="text-black">Получение денег: </span>
                                                     Вы получаете деньги, вы счастливые идёте покупать жене айфон в кредит, так как ты осел!!!
                                                 </p>
@@ -371,7 +371,6 @@ const MainPage = () =>{
                         </div>
 
                     </section>
-
 
                     <section>
                         <ContactUs/>
