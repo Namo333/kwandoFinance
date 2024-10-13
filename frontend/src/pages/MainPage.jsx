@@ -4,12 +4,12 @@ import Footer from "../components/Footer";
 import ContactUs from "../components/ContactUs";
 import BanerTest from "../components/BanerTest";
 import Faq from "../components/Faq";
-import { HeroBlock, ComponyBlock, SlideBlock, IconBlock, TwoIconBlock, ApproachBlock } from "../components/mainPageComponent/exportMainComponents";
+import { HeroBlock, ComponyBlock, CalcBlock, SlideBlock, IconBlock, TwoIconBlock, ApproachBlock } from "../components/mainPageComponent/exportMainComponents";
 
 const sections = [
   { component: <HeroBlock />, className: "pt-[3.5rem]" },
   { component: <ComponyBlock />, className: "" },
-  { component: <SlideBlock />, className: "" },
+  { component: <CalcBlock />, className: "pb-[450px] max-lg:pb-[37rem] max-[767px]:pb-[37rem] max-[398px]:pb-[37rem] max-[290px]:pb-[37.7rem]" },
   { component: <IconBlock />, className: "" },
   { component: <BanerTest />, className: "pb-[150px] max-lg:pb-[12rem] max-md:pb-[12rem] max-[767px]:pb-[15rem] max-[398px]:pb-[18rem] max-[290px]:pb-[18rem]" },
   { component: <TwoIconBlock />, className: "" },

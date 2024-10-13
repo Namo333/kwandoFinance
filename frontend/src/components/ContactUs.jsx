@@ -1,6 +1,6 @@
 const ContactUs = () => {
     return (
-        <div class="">
+        <div class="" id="contact-us">
           <div class="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
             <div class="max-w-3xl mb-10 lg:mb-14">
               <h2 class="text-black font-semibold text-2xl md:text-4xl md:leading-tight">Связаться с нами</h2>
@@ -82,10 +82,10 @@ const ContactUs = () => {
                     </p>
         
                     <p class="mt-5">
-                      <a class="group inline-flex items-center gap-x-2 py-2 px-6 bg-blue-600 font-medium text-sm text-white rounded-[13px] focus:outline-none" href="#">
+                      <button type="button" class="group inline-flex items-center gap-x-2 py-2 px-6 bg-blue-600 font-medium text-sm text-white rounded-[13px] focus:outline-none">
                         Оставить заявку
                         <svg class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                      </a>
+                      </button>
                     </p>
                   </div>
                 </form>
@@ -121,7 +121,7 @@ const ContactUs = () => {
                     <h4 class="text-black font-semibold">FAQ</h4>
                     <p class="mt-1 text-gray-600">Найдите ответы на все ваши вопросы в нашем разделе часто задаваемых вопросов.</p>
                     <p class="mt-2">
-                      <a class="group inline-flex items-center gap-x-2 font-medium text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline" href="#">
+                      <a class="group inline-flex items-center gap-x-2 font-medium text-sm text-blue-600 decoration-2 hover:underline focus:outline-none focus:underline" href="#faq">
                         Посетить FAQ
                         <svg class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                       </a>

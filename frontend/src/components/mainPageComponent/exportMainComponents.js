@@ -4,6 +4,7 @@ import SlideBlock from "./sliedBlock";
 import IconBlock from "./IconBlock";
 import TwoIconBlock from "./TwoInconBlock";
 import ApproachBlock from "./ApproachBlock";
+import CalcBlock from "./CalcBlock";
 
 export {
     HeroBlock,
@@ -12,4 +13,5 @@ export {
     IconBlock,
     TwoIconBlock,
     ApproachBlock,
+    CalcBlock,
 }

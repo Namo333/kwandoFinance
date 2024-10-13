@@ -35,7 +35,7 @@ const BanerHead = () => {
                                     <a className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100" href="#">
                                         Закон 102-ФЗ об ипотеке
                                     </a>
-                                    <a className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100" href="#">
+                                    <a className="flex items-center gap-x-3.5 py-2 px-3 rounded-lg text-sm text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100" href="#contact-us">
                                         Анкета на кредит
                                     </a>
                                 </div>

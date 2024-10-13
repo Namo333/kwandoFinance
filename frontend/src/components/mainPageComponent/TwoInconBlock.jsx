@@ -8,7 +8,7 @@ const TwoIconBlock = () =>{
                   Преимущества работы с нами
               </h2>
               <p class="mt-3 text-gray-800">
-                For as long as there have been cities, the public square has been a fundamental part of the urban landscape - an open, approachable space to meet and engage with friends and neighbours. Space aims to capture this spirit of bringing people together in an exciting, welcoming environment.
+              Мы поможем вам найти самые выгодные условия для получения кредита, максимально упрощая процесс и предоставляя индивидуальные решения, которые соответствуют вашим потребностям и финансовым возможностям. Мы заботимся о том, чтобы каждый клиент получил оптимальные условия и поддержку на каждом этапе оформления кредита.
               </p>
             </div>
               <div class="py-10 lg:py-14 mx-auto">
