@@ -9,7 +9,7 @@ import { HeroBlock, ComponyBlock, CalcBlock, SlideBlock, IconBlock, TwoIconBlock
 const sections = [
   { component: <HeroBlock />, className: "pt-[3.5rem]" },
   { component: <ComponyBlock />, className: "" },
-  { component: <CalcBlock />, className: "pb-[450px] max-lg:pb-[37rem] max-[767px]:pb-[37rem] max-[398px]:pb-[37rem] max-[290px]:pb-[37.7rem]" },
+  { component: <CalcBlock />, className: "pb-[42rem] max-lg:pb-[43rem] max-[767px]:pb-[43rem] max-[398px]:pb-[46rem] max-[369px]:pb-[50rem] max-[311px]:pb-[52rem] max-[290px]:pb-[55rem] max-[263px]:pb-[60rem]" },
   { component: <IconBlock />, className: "" },
   { component: <BanerTest />, className: "pb-[150px] max-lg:pb-[12rem] max-md:pb-[12rem] max-[767px]:pb-[15rem] max-[398px]:pb-[18rem] max-[290px]:pb-[18rem]" },
   { component: <TwoIconBlock />, className: "" },
