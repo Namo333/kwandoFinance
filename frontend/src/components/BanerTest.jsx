@@ -1,3 +1,5 @@
+import Test from "./Test"
+
 const BanerTest = () =>{
     return(
         <div class="bg-blue-600 absolute left-0 w-full">
@@ -12,9 +14,12 @@ const BanerTest = () =>{
                 </p>
               </div>
               <div class="mt-3 text-center md:text-start md:flex md:justify-end md:items-center">
-                <button type="button" class="py-3 px-20 inline-flex items-center gap-x-2 text-sm font-medium rounded-[10px] border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
+
+                <button type="button" class="py-3 px-20 inline-flex items-center gap-x-2 text-sm font-medium rounded-[10px] border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-scale-animation-modal" data-hs-overlay="#hs-scale-animation-modal">
                   Пройти тест
                 </button>
+                <Test/>
+                
               </div>
             </div>
           </div>

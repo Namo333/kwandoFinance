@@ -13,9 +13,12 @@ const Header = () => {
         </div>
     
         <div class="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
+
           <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent text-white bg-blue-600  hover:bg-blue-700 focus:outline-none focus:bg-blue-700 transition disabled:opacity-50 disabled:pointer-events-none">
             Оставить заявку
           </button>
+          
+
     
           <div class="md:hidden">
             <button type="button" class="hs-collapse-toggle size-[38px] flex justify-center items-center text-sm font-semibold rounded-xl border border-gray-200 text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" id="hs-navbar-hcail-collapse" aria-expanded="false" aria-controls="hs-navbar-hcail" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-hcail">

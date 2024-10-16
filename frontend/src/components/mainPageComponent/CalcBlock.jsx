@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Test from '../Test';
 
 const CalcBlock = () => {
     const [loanAmount, setLoanAmount] = useState(20000);
@@ -84,9 +85,11 @@ const CalcBlock = () => {
                     <button
                         type="button"
                         className="py-3 px-10 text-sm font-medium text-white bg-blue-600 rounded-lg shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:blue-600 focus:ring-offset-2"
+                        aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-scale-animation-modal" data-hs-overlay="#hs-scale-animation-modal"
                     >
                         Получить кредит
                     </button>
+                    <Test/>
                 </div>
             </div>
         </div>
