@@ -2,7 +2,7 @@ import Test from "./Test"
 
 const BanerTest = () =>{
     return(
-        <div class="bg-blue-600 absolute left-0 w-full">
+        <div class="bg-gray-800 absolute left-0 w-full">
           <div class="max-w-7xl px-4 py-10 sm:px-6 lg:px-8 mx-auto">
             <div class="grid justify-center md:grid-cols-2 md:justify-between md:items-center gap-2">
               <div class="text-center md:text-start">

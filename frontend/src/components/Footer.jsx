@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
       <div className="flex flex-col min-h-full">
-          <footer className="bg-gray-900 w-full mt-auto">
+          <footer className="bg-gray-800 w-full mt-auto">
               <div className="mt-auto w-full max-w-7xl py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
                   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
                       <div className="col-span-full lg:col-span-1">

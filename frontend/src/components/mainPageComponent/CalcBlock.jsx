@@ -34,7 +34,7 @@ const CalcBlock = () => {
     }, [loanAmount, interestRate, loanTerm]);
 
     return (
-        <div className="absolute left-0 w-full bg-blue-600 bg-[url('https://preline.co/assets/svg/examples/abstract-1.svg')] bg-no-repeat bg-cover bg-center p-10">
+        <div className="absolute left-0 w-full bg-gray-800 p-10">
             <div className="bg-white shadow-2xl rounded-2xl max-w-7xl px-4 py-10 sm:px-6 lg:px-8 mx-auto">
                 <h2 className="text-2xl font-semibold text-gray-700 mb-6 text-center">Калькулятор кредита</h2>
                 

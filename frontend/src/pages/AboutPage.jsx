@@ -3,10 +3,12 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Faq from "../components/Faq"
 import ContactUs from "../components/ContactUs"
+import Reviews from "../components/Reviews"
 
 
 const sections = [
     { component: <Faq />, className: "" },
+    { component: <Reviews/>, className: "pb-[52rem] max-[1168px]:pb-[55rem] max-[1121px]:pb-[59rem] max-[1098px]:pb-[64rem] max-lg:pb-[83rem] max-[909px]:pb-[88rem] max-[790px]:pb-[90rem] max-md:pb-[80rem] max-[675px]:pb-[84rem] max-[649px]:pb-[89rem] max-sm:pb-[75rem] max-[517px]:pb-[79rem] max-[492px]:pb-[82rem] max-[465px]:pb-[85rem] max-[426px]:pb-[88rem] max-[409px]:pb-[91rem] max-[393px]:pb-[94rem] max-[371px]:pb-[98rem] max-[360px]:pb-[101rem] max-[335px]:pb-[104rem] max-[332px]:pb-[107rem] max-[326px]:pb-[110rem] max-[320px]:pb-[113rem] max-[311px]:pb-[117rem] max-[287px]:pb-[122rem] max-[275px]:pb-[126rem]"},
     { component: <ContactUs />, className: "" },
   ];
   

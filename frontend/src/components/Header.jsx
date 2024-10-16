@@ -216,7 +216,10 @@ const Header = () => {
               <Link to='/about' class="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600">О нас</Link>
             </div>
             <div>
-              <Link class="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600">Отзывы</Link>
+              <Link to='/news' class="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600">Новости</Link>
+            </div>
+            <div>
+              <a href="#reviews" class="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600">Отзывы</a>
             </div>
             <div>
               <a href="#contact-us" class="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600">Контакты</a>

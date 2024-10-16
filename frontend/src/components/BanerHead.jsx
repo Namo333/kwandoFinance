@@ -1,6 +1,6 @@
 const BanerHead = () => {
     return (
-        <div className="bg-blue-600 fixed top-0 left-0 w-full z-50">
+        <div className="bg-blue-600 bg-[url('https://preline.co/assets/svg/examples/abstract-1.svg')] bg-no-repeat bg-cover bg-center fixed top-0 left-0 w-full z-50">
             <div className="max-w-7xl px-4 py-4 sm:px-6 lg:px-8 mx-auto">
                 <div className="grid justify-center md:grid-cols-2 md:justify-between md:items-center gap-2">
                     <div className="text-center md:text-start md:order-2 md:flex md:justify-end md:items-center">

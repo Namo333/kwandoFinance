@@ -4,6 +4,7 @@ import "preline/preline";
 
 const MainPage = lazy(() => import('./pages/MainPage'));
 const AboutPage = lazy(() => import('./pages/AboutPage'));
+const NewsPage = lazy(() => import('./pages/NewsPage'));
 const Page404 = lazy(() => import('./pages/Page404'));
 
 const AppRoutes = () => {
@@ -19,6 +20,7 @@ const AppRoutes = () => {
     <Routes>
       <Route path="/" element={<MainPage />} />
       <Route path="about" element={<AboutPage />} />
+      <Route path="news" element={<NewsPage />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   );
