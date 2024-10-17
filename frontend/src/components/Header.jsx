@@ -1,6 +1,6 @@
 'use client'
 import { Link, Outlet } from "react-router-dom";
-
+import Test from "./Test";
 
 const Header = () => {
   return (
@@ -8,15 +8,18 @@ const Header = () => {
       <nav class="relative max-w-7xl w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-8 mx-auto">
         <div class="md:col-span-3">
           <Link class="flex-none rounded-xl text-xl inline-block font-bold focus:outline-none focus:opacity-80" to='/' aria-label="Preline">
-            Kwando
+            <img src="https://credit-ipoteka.com/wp-content/uploads/2022/12/logotip.png" alt="" className="w-[120px]"/>
           </Link>
         </div>
     
         <div class="flex items-center gap-x-1 md:gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
 
-          <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent text-white bg-blue-600  hover:bg-blue-700 focus:outline-none focus:bg-blue-700 transition disabled:opacity-50 disabled:pointer-events-none">
+          <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border border-transparent text-white bg-blue-600  hover:bg-blue-700 focus:outline-none focus:bg-blue-700 transition disabled:opacity-50 disabled:pointer-events-none"
+            aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-scale-animation-modal" data-hs-overlay="#hs-scale-animation-modal"
+          >
             Оставить заявку
           </button>
+          <Test/>
           
 
     

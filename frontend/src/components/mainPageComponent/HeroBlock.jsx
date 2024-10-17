@@ -1,3 +1,5 @@
+import Test from "../Test"
+
 const HeroBlock = () => {
     return(
         <div class="mx-auto">
@@ -8,9 +10,12 @@ const HeroBlock = () => {
                     <p class="mt-3 text-lg text-gray-800">Получение кредита у нас в офисе за 15 минут</p>
 
                     <div class="mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
-                        <a class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#contact-us">
+                        <button type="button" class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
+                            aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-scale-animation-modal" data-hs-overlay="#hs-scale-animation-modal"
+                        >
                             Оставить заявку
-                        </a>
+                        </button>
+                        <Test />
                     </div>
                 </div>
 
